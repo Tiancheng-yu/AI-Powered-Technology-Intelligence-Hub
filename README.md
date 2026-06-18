@@ -40,7 +40,4 @@ Duplicate prevention was the most complex part. The initial design checked artic
 ## Screenshot
 
 ![Workflow Screenshot](Workflow.png)
-
-*(Replace with your actual screenshot filename)*
-
 ---
