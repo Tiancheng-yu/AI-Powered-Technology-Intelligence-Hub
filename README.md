@@ -118,9 +118,7 @@ This significantly improved efficiency and eliminated duplicate entries.
 ## Future Enhancements
 
 - AI-powered article summarisation before storing to Notion
-- Automated LinkedIn post drafting based on summarised articles
 - Trend analysis and topic clustering
-- Daily and weekly executive summaries
 - Enhanced categorisation and tagging
 - Additional business and technology intelligence sources
 
