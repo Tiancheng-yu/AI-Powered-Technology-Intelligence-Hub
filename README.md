@@ -1,4 +1,4 @@
-# AI-Powered-Technology-Intelligence-Hub
+# AI-Powered Technology Intelligence Hub
 
 An automated workflow that eliminates manual technology news monitoring by aggregating, deduplicating and summarising content from multiple sources into a centralised Notion knowledge hub.
 
