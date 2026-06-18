@@ -10,7 +10,7 @@ To streamline this process, I designed and implemented a self-hosted automation 
 
 ## Architecture
 
-mermaid
+```mermaid
 flowchart TD
 
 A[External RSS Sources]
@@ -44,7 +44,7 @@ E --> F[Notion Database]
 F --> G[Knowledge Repository]
 
 G --> H[Search & Review]
-
+```
 
 ## Technologies Used
 
@@ -53,7 +53,7 @@ G --> H[Search & Review]
 - Notion API
 - RSS Feeds
 - JavaScript
-- REST Integrations
+- Workflow Automation
 
 ## Workflow Features
 
