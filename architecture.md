@@ -3,13 +3,13 @@
 ```mermaid
 flowchart TD
 
-A[External RSS Sources]
+A[RSS Sources]
 
 A --> A1[OpenAI]
 A --> A2[Anthropic]
 A --> A3[Microsoft Security]
 A --> A4[Microsoft 365]
-A --> A5[AWS Security Blog]
+A --> A5[AWS Security]
 A --> A6[The Hacker News]
 A --> A7[ITPro]
 
@@ -23,17 +23,28 @@ A7 --> B
 
 B[n8n Automation Platform<br/>Docker Self-Hosted]
 
-B --> C[Multi-Source Feed Aggregation]
+B --> C[RSS Feed Aggregation]
 
 C --> D[Category Classification]
 
-D --> E[Duplicate Detection]
+D --> E[RSS Deduplication]
 
-E --> F[AI Content Summarisation]
+E --> F[Load Existing Notion Links]
 
-F --> G[Notion Database]
+F --> G[Duplicate Validation]
 
-G --> H[Knowledge Repository]
+G --> H{Already Exists?}
 
-H --> I[Search & Review]
+H -->|Yes| I[Skip Article]
+
+H -->|No| J[Clean Content]
+
+J --> K[AI Summarisation<br/>OpenAI API]
+
+K --> L[Create Notion Record]
+
+L --> M[Technology Intelligence Hub]
+
+M --> N[Search & Review]
+     
 ```
